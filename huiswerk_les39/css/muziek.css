@@ -1,0 +1,106 @@
+body {
+/* We plaatsen de webpagina in het midden van het venster*/
+	width: 955px;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Times New Roman', Times, serif;
+	background: #F5F4EF
+}
+
+h2 {
+color: #000;
+}
+
+a:link, a:visited {
+/*opmaak hyperlink en bezochte hyperlink*/
+color: #00468C;
+text-decoration: none;
+}
+
+a:hover, a:active {
+/*opmaak hover en actieve hyperlink*/
+color: #00F;
+text-decoration: underline;
+}
+
+#kop {
+/* opmaak structuurelement header */
+font-size: 2em;
+font-weight: bold;
+background: #BFFFFF;
+width: 955px;
+height: 100px;
+}
+
+#kop table {
+width: 955px;
+border: 0px;
+}
+
+#navigatie {
+/* opmaak structuurelement navigatie*/
+width: 955px;
+background: #006DD9;
+font-size: 1.2em;
+height: 30px;
+}
+
+#navigatie ul {
+/*opmaak opsommingslijst nav*/
+list-style: none;
+margin: 0;
+padding: 0px;
+}
+
+#navigatie li {
+margin: 0px;
+float: left;
+}
+
+#navigatie a:link, #navigatie a:visited {
+color: #FFF;
+display: block;
+height: 20px;
+padding: 5px 10px;
+text-decoration: none;
+}
+
+#navigatie a:hover, #navigatie a:active {
+background: #00468C;
+color: #EEE;
+}
+
+#inhoud {
+width: 943px;
+min-height: 400px;
+float: left;
+background-color: #FFC;
+margin-top: 1px;
+padding: 6px;
+}
+
+.artikel {
+color: #333;
+}
+
+.article header {
+font-style: italic;
+}
+
+#voet {
+width: 955px;
+float: left;
+background: #006DD9;
+color: #FFF;
+text-align: center;
+font-style: normal;
+margin-top: 1px;
+margin-bottom: 2em;
+padding: 0px;
+}
+
+.article ul {
+	/*Opmaak opsomminglijsten */
+	margin-left: 40px;
+}

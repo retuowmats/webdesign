@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  content="text/html; charset=utf-8"  http-equiv="content-type">
+    <meta  name="omschrijving"  content="muziekschool voor koperblazers en saxofoons">
+    <meta  name="sleutelwoorden"  content="saxofoon, trompet, trombone, tuba, koperblazer">
+    <title>Home</title>
+    <link  href="css/muziek.css"  rel="stylesheet"  type="text/css">
+  </head>
+  <body>
+    <header  id="kop">
+      <table>
+        <tbody>
+          <tr>
+            <td  style="width: 100px;"> <img  title="De muziekschool"  alt="De muziekschool"
+                 src="afbeeldingen/logo.png"> </td>
+            <td  style="width: 755px; text-align: center; vertical-align: middle;">
+              Hannah en Jesse<br>
+              Muziekschool voor koperblazers en saxofoons </td>
+            <td  style="width: 100px;"> <img  title="De muziekschool"  alt="De muziekschool"
+                 src="afbeeldingen/logo.png"> </td>
+          </tr>
+        </tbody>
+      </table>
+    </header>
+    <nav  id="navigatie">
+      <ul>
+        <li><a  href="index.html">Home </a></li>
+        <li><a  href="html/contact.html">Contact </a></li>
+        <li><a  href="html/info.html">Info </a></li>
+        <li><a  href="html/formulier.html">Formulier </a></li>
+        <li><a  href="html/koper.html">Koper </a></li>
+        <li><a  href="html/sax.html">Sax </a></li>
+        <li><a  href="html/hannah.html">Hannah </a></li>
+        <li><a  href="html/jesse.html">Jesse </a></li>
+        <li><a  href="html/links.html">Links </a></li>
+        <li><a  href="html/sitemap.html">Sitemap </a></li>
+      </ul>
+    </nav>
+    <section  id="inhoud">
+      <article  class="artikel">
+        <header>
+          <h2>Is Jazz uw favoriete muziek, kom langs bij Hannah en Jesse en
+            wordt zelf Jazz-speler! </h2>
+        </header>
+        Miles Davis &amp; John Coltrane - Four 1958<br>
+        <audio  controls="controls"  preload="none"  style="float:left"  src="file:///C:/Users/Gebruiker/Desktop/Cursussen/Webdesign/Lessen/Four.mp3">
+        </audio>
+        <div  style="float: right;"> <img  style="width: 417px; height: 559px;"
+             alt="Jazz"  src="afbeeldingen/jazz.jpg"><br>
+        </div>
+        <br>
+        <br>
+      </article>
+    </section>
+    <footer  id="voet">
+      <p>Copyright (C) 2019.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+                  <html>
+                    <head>
+                      <meta  content="text/html; charset=utf-8"  http-equiv="content-type">
+                      <meta  name="omschrijving"  content="muziekschool voor koperblazers en saxofoons">
+                      <meta  name="sleutelwoorden"  content="inschrijven, instrument, saxofoon, koperblazer">
+                      <title>Inschrijfformulier</title>
+                      <link  href="../css/muziek.css"  rel="stylesheet"  type="text/css">
+                    </head>
+                    <body>
+                      <header  id="kop">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td  style="width: 100px;"> <img  title="De muziekschool"
+
+                                   alt="De muziekschool"  src="../afbeeldingen/logo.png">
+                              </td>
+                              <td  style="width: 755px; text-align: center; vertical-align: middle;">
+                                Hannah en Jesse<br>
+                                Muziekschool voor koperblazers en saxofoons </td>
+                              <td  style="width: 100px;"> <img  title="De muziekschool"
+
+                                   alt="De muziekschool"  src="../afbeeldingen/logo.png">
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </header>
+                      <nav  id="navigatie">
+                        <ul>
+                          <li><a  href="../index.html">Home </a></li>
+                          <li><a  href="contact.html">Contact </a></li>
+                          <li><a  href="info.html">Info </a></li>
+                          <li><a  href="formulier.html">Formulier </a></li>
+                          <li><a  href="koper.html">Koper </a></li>
+                          <li><a  href="sax.html">Sax </a></li>
+                          <li><a  href="hannah.html">Hannah </a></li>
+                          <li><a  href="jesse.html">Jesse </a></li>
+                          <li><a  href="links.html">Links </a></li>
+                          <li><a  href="sitemap.html">Sitemap </a></li>
+                        </ul>
+                      </nav>
+                      <section  id="inhoud">
+                        <article  class="artikel">
+                          <header> </header>
+                          <h1>Inschrijfformulier</h1>
+                         <form action="https://formspree.io/cwstam84@gmail.com" method="post">
+					<table style="width: 500px;
+					border-spacing: 0px; padding: 0px ">
+						<tr><td>&nbsp;</td></tr>
+						<tr>
+							<td style=" width: 250px;
+							text-align: right">Naam:&nbsp;</td>
+							<td>
+							<input type="text" name="naam" size="40" maxlength="40"></td>
+						</tr>
+						<tr>
+							<td style=" width: 250px;
+							text-align: right">Straat en huisnummer:&nbsp;</td>
+							<td>
+							<input type="text" name="straat en huisnummer" size="40" maxlength="40"></td>
+						</tr>
+						<tr>
+							<td style=" width: 250px;
+							text-align: right">Postcode en woonplaats:&nbsp;</td>
+							<td>
+							<input type="text" name="postcode en woonplaats" size="40" maxlength="40"></td>
+						</tr>
+						<tr>
+							<td style=" width: 250px;
+							text-align: right">E-mailadres:&nbsp;</td>
+							<td>
+							<input type="email" name="email" size="40" maxlength="40" required></td>
+						</tr>
+						<tr>
+							<td style=" width: 250px;
+							text-align: right">Betaalmethode:&nbsp;</td>
+							<td>
+								<input type="radio" value="rembourszending" name="kaart" checked>Rembourszending
+								<input type="radio" value="vooruitbetaling" name="kaart">Vooruitbetaling
+							</td>
+						</tr>						
+						<tr>
+							<td style=" width: 250px;
+							text-align: right">Soort:&nbsp;</td>
+							<td>
+								<input type="checkbox" value="check" name="apparaten">Apparaten
+								<input type="checkbox" value="check" name="tuinafval">Tuinafval
+								<input type="checkbox" value="check" name="grofafval">Grof afval
+							</td>
+						</tr>						
+						<tr>
+							<td style=" width: 250px;
+							text-align: right">Apparaat:&nbsp;</td>
+							<td>
+								<select class="alle_rij" name="product" size="2" multiple="">
+									<option class="eerste_rij">Kies elektrische apparaten</option>
+									<option>Afzuigkap</option>
+									<option>Computerapparaat</option>
+									<option>Koelkast</option>
+									<option>Koffiezetapparaat</option>
+									<option>Radio</option>
+									<option>Televisie</option>
+									<option>Vaatwasser</option>
+									<option>Wasmachine</option>
+								</select>
+							</td>
+						</tr>	
+						<tr>
+							<td style=" width: 250px;
+							text-align: right">Tuinafval:&nbsp;</td>
+							<td>
+								<select class="alle_rij" name="product" size="2" multiple="">
+									<option class="eerste_rij">Kies tuinafval</option>
+									<option>Groenteafval</option>
+									<option>Stammetjes en stronken dikker dan 10cm</option>
+									<option>Stammetjes en stronken dunner dan 10cm</option>
+									<option>Tuinafval</option>
+								</select>
+							</td>
+						</tr>				
+						<tr>
+							<td style=" width: 250px;
+							text-align: right">Grof afval:&nbsp;</td>
+							<td>
+								<select class="alle_rij" name="product" size="2" multiple="">
+									<option class="eerste_rij">Kies grof afval</option>
+									<option>Bank</option>
+									<option>Bureau - hout</option>
+									<option>Bureau - staal</option>
+									<option>Kachel</option>
+									<option>Laminaat</option>
+									<option>Trap/ladder - hout</option>
+									<option>Vloerbedekking</option>
+									<option>Wandbekleding</option>
+									<option>Zonwering - hout</option>
+									<option>Zonwering - metaal</option>
+								</select>
+							</td>
+						</tr>						
+						<tr>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+							<td><input type="submit" value="Verzenden">
+							<input type="reset" value="Wissen"></td>
+						</tr>
+					</table>
+				</form>
+ </article>
+    </section>
+    <footer  id="voet">
+      <p>Copyright (C) 2019.</p>
+    </footer>
+</body></html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  content="text/html; charset=utf-8"  http-equiv="content-type">
+    <meta  name="omschrijving"  content="muziekschool voor koperblazers en saxofoons">
+    <meta  name="sleutelwoorden"  content="saxofoon, trompet, trombone, tuba, koperblazer">
+    <title>Koper</title>
+    <link  href="../css/muziek.css"  rel="stylesheet"  type="text/css">
+  </head>
+  <body>
+    <header  id="kop">
+      <table>
+        <tbody>
+          <tr>
+            <td  style="width: 100px;"> <img  title="De muziekschool"  alt="De muziekschool"
+
+                 src="../afbeeldingen/logo.png"> </td>
+            <td  style="width: 755px; text-align: center; vertical-align: middle;">
+              Hannah en Jesse<br>
+              Muziekschool voor koperblazers en saxofoons </td>
+            <td  style="width: 100px;"> <img  title="De muziekschool"  alt="De muziekschool"
+
+                 src="../afbeeldingen/logo.png"> </td>
+          </tr>
+        </tbody>
+      </table>
+    </header>
+    <nav  id="navigatie">
+      <ul>
+        <li><a  href="../index.html">Home </a></li>
+        <li><a  href="contact.html">Contact </a></li>
+        <li><a  href="info.html">Info </a></li>
+        <li><a  href="formulier.html">Formulier </a></li>
+        <li><a  href="koper.html">Koper </a></li>
+        <li><a  href="sax.html">Sax </a></li>
+        <li><a  href="hannah.html">Hannah </a></li>
+        <li><a  href="jesse.html">Jesse </a></li>
+        <li><a  href="links.html">Links </a></li>
+        <li><a  href="sitemap.html">Sitemap </a></li>
+      </ul>
+    </nav>
+    <section  id="inhoud">
+      <article  class="artikel">
+        <header>
+          <h2>Titel Artikel</h2>
+        </header>
+        <p> Klankproductie Als we de koperblaasinstrumenten in het algemeen
+          bekijken, zien we 3 elementen die steeds terugkomen: Om klank te
+          produceren, heeft men nood aan luchttrillingen. De koperblazer perst
+          lucht in het mondstuk terwijl hij zijn lippen doet trillen. Zo
+          ontstaan luchttrillingen. De luchttrillingen planten zich voort in de
+          klankbuizen en worden verpreid in de klankbeker. De hoogte van de toon
+          hangt af van de lipspanning en de lengte van de buizen. Door het
+          wisselen van de lipspanning verkrijgt men een reeks natuurtonen. </p>
+        <p> </p>
+        <h2>Mondstukken</h2>
+        Een hoorn heeft een trechtervormig mondstuk, in tegenstelling tot
+        trompet, trombone en tuba. Die bezitten een ketelvormig mondstuk. Het
+        mondstuk is bijna het belangrijkste onderdeel van het instrument. De
+        bouw en de vorm van het mondstuk variëren van muzikant tot muzikant en
+        moeten aangepast zijn aan de anatomie van de lip van de speler. De een
+        kan bijvoorbeeld een betere klank produceren op een mondstuk, terwijl de
+        andere er niet kan op spelen.
+        <p> </p>
+        <h2>Mechaniek</h2>
+        Zoals eerder gezegd verlaagd de klank door het verlengen van de
+        buislengte en verhoogd de klank door het verkorten van de buislengte.
+        Dit verlengen gebeurt bij de trompet, bugel, tuba, euphonium, bastuba,
+        ventieltrombone met het indrukken van ventielen (pistons) die de lucht
+        omleiden via een andere buis. Als men bij de trompet het eerste ventiel
+        induwt, verlaagt de natuurtoon die men dmv een bepaalde lipspanning
+        creëert met 1 toon. Als men bij een trompet het tweede ventiel induwt,
+        verlaagt de natuurtoon die men dmv een bepaalde lipspanning creëert met
+        1/2 toon. Als men bij een trompet het derde ventiel induwt, verlaagt de
+        natuurtoon die men dmv een bepaalde lipspanning creëert met 1 1/2 toon.
+        Bij de trombone maakt men gebruik van een schuif waardoor men de
+        volledige lengte van de buis kan vergroten of verkleinen. Het verlagen
+        is weer gebaseerd op de natuurtonen.
+        <p> </p>
+        <h2>Het gebruik van de koperinstrumenten</h2>
+        De kopers worden vooral gebruikt in Harmonieën, Fanfares en Brassbands
+        waar ze dikwijls een solistische functie uitoefenen. Daarnaast gebruikt
+        men de kopers vaak in symfonische orkesten en kamerorkesten. De hoorn
+        speelt in het symfonische orkest bijvoorbeeld een heel belangrijke rol
+        en geeft een belangrijke tint aan de klankkleur van het symfonieorkest.
+        Het leuke aan koperinstrumenten is dat je vrij gemakkelijk kan
+        overstappen van het ene naar het ander instrument. Neem nu bijvoorbeeld
+        een trompettist, deze kan gemakkelijk tegelijk een flugelhornist en een
+        cornettist zijn. Dezelfde rim-en cupdiepte voor de mondstukken zijn wel
+        vereist! Het is ook wenselijk om op een gespecialiseerd mondstuk te
+        spelen dat hoort bij het instrument, speel bijvoorbeeld geen flugel met
+        een aangepast trompetmondstuk. </article>
+    </section>
+    <footer  id="voet">
+      <p>Copyright (C) 2019.</p>
+    </footer>
+    
+  </body>
+</html>

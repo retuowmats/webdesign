@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+                  <html>
+                    <head>
+                      <meta  content="text/html; charset=utf-8"  http-equiv="content-type">
+                      <meta  name="omschrijving"  content="muziekschool voor koperblazers en saxofoons">
+                      <meta  name="sleutelwoorden"  content="route, adres, telefoonnummer, emailadres">
+                      <title>Contact</title>
+                      <link  href="../css/muziek.css"  rel="stylesheet"  type="text/css">
+                    </head>
+                    <body>
+                      <header  id="kop">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td  style="width: 100px;"> <img  title="De muziekschool"
+
+                                   alt="De muziekschool"  src="../afbeeldingen/logo.png">
+                              </td>
+                              <td  style="width: 755px; text-align: center; vertical-align: middle;">
+                                Hannah en Jesse<br>
+                                Muziekschool voor koperblazers en saxofoons </td>
+                              <td  style="width: 100px;"> <img  title="De muziekschool"
+
+                                   alt="De muziekschool"  src="../afbeeldingen/logo.png">
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </header>
+                      <nav  id="navigatie">
+                        <ul>
+                          <li><a  href="../index.html">Home </a></li>
+                          <li><a  href="contact.html">Contact </a></li>
+                          <li><a  href="info.html">Info </a></li>
+                          <li><a  href="formulier.html">Formulier </a></li>
+                          <li><a  href="koper.html">Koper </a></li>
+                          <li><a  href="sax.html">Sax </a></li>
+                          <li><a  href="hannah.html">Hannah </a></li>
+                          <li><a  href="jesse.html">Jesse </a></li>
+                          <li><a  href="links.html">Links </a></li>
+                          <li><a  href="sitemap.html">Sitemap </a></li>
+                        </ul>
+                      </nav>
+                      <section  id="inhoud">
+                        <article  class="artikel">
+                          <header> </header>
+                           <iframe  src="https://www.google.com/maps/embed?pb=%211m18%211m12%211m3%211d2455.6416397803096%212d4.7376806161227245%213d52.013407681399734%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0x47c5d69d25ece547%3A0xbca8742aed6c7d3a%212sFugalaan+2%2C+2807+PH+Gouda%215e0%213m2%211sen%212snl%214v1549229112053"
+
+                             style="border:0; float:right;"  allowfullscreen=""  
+
+                             frameborder="0"  height="450"  width="600"></iframe>
+                          <h2>Adresgegevens</h2>
+                          Muziekschool Hannah en jesse<br>
+                          Fugalaan 2<br>
+                          2807 PH Gouda <br>
+                         
+                          <h1>Contactformulier</h1>
+                          <form  action="https://formspree.io/cwstam84@gmail.com"
+
+                             method="post">
+                            <table  style="width: 500px;"  border="0">
+                              <tbody>
+                                <tr>
+                                  <td>Naam:</td>
+                                  <td><input  placeholder=" "  size="20"  name="Naam"
+
+                                       type="text"><br>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>Betreft:</td>
+                                  <td><input  size="20"  name="Afdeling"  type="text"><br>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>E-mail:</td>
+                                  <td><input  size="20"  required="required"  name="Email"
+
+                                       type="email"><br>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td  colspan="2"  rowspan="1"><textarea  class="eerste_rij"
+
+ placeholder="Wat is uw vraag?"  rows="5"  cols="75"  name="vragen"></textarea><br>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td><input  formmethod="post"  formaction="https://formspree.io/cwstam84@gmail.com"
+
+ value="verzenden"  name="Verzenden"  type="submit"> <input  value="wissen"  name="Wissen"
+
+ type="reset"> </td><td><br></td></tr></tbody></table>
+	</form>
+ </article>
+    </section>
+    <footer  id="voet">
+      <p>Copyright (C) 2019.</p>
+    </footer>
+</body></html>
