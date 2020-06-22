@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  content="text/html; charset=UTF-8"  http-equiv="content-type">
+    <title>Huiswerk les 32</title>
+    <style  type="text/css">
+      <!--
+      td {
+      background-color: yellow;
+      }
+      th {
+      background-color: greenyellow;
+      }      
+      -->
+    </style>
+    <link  rel="stylesheet"  href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script  src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+  $( function() {
+    $( "input" ).checkboxradio();
+  } );
+  </script>
+    <script  type="text/Javascript">
+      <!--
+    	var transport; //transportmiddel
+      var bestemming; //bestemming
+      var aankomst;//aankomstdag
+      
+      function setTransport(waarde) {
+      transport=waarde;
+      }
+      function setBestemming(waarde) {
+      bestemming=waarde;
+      }
+      function setAankomst(waarde) {
+      aankomst=waarde;
+      }
+      function klikHier() {
+      window.alert("Uw gaat met de "+ transport + " naar de "+ bestemming +" en komt aan op een "+aankomst);
+      }
+      -->
+    </script>
+  </head>
+  <body>
+    <div  class="widget">
+      <h1>Huiswerk les 32</h1>
+      <fieldset> <legend>Uw vervoersmiddel: </legend> <label  for="radio-1" onclick="setTransport('auto')">Auto</label>
+        <input  name="radio-1"  id="radio-1"  type="radio"> <label  for="radio-2">Fiets</label>
+        <input  name="radio-1"  id="radio-2"  type="radio"> <label  for="radio-3">Raket</label>
+        <input  name="radio-1"  id="radio-3"  type="radio"> </fieldset>
+      <fieldset> <legend>Uw bestemming </legend> <label  for="radio-4">Bakker</label>
+        <input  name="radio-1"  id="radio-4"  type="radio"> <label  for="radio-5">Maan</label>
+        <input  name="radio-1"  id="radio-5"  type="radio"> <label  for="radio-6">Gedver</label>
+        <input  name="radio-1"  id="radio-6"  type="radio"> </fieldset>
+      <fieldset> <legend>Uw aankomstdag: </legend> <label  for="radio-7">Zondag</label>
+        <input  name="radio-1"  id="radio-7"  type="radio"> <label  for="radio-8">Maandag</label>
+        <input  name="radio-1"  id="radio-8"  type="radio"> <label  for="radio-9">Donderdag</label>
+        <input  name="radio-1"  id="radio-9"  type="radio"> </fieldset>
+    </div>
+    <p><a  href="javascript:void(klikHier())">Klik hier</a></p>
+    <noscript>
+     	Helaas, uw browser ondersteunt geen scripts.
+    </noscript>
+    
+  </body>
+</html>

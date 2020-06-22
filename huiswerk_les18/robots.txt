@@ -1,0 +1,2 @@
+User agent: *
+Sitemap: https://retuowmats.github.io/huiswerk_les18/sitemap.xml

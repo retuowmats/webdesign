@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta  content="text/html; charset=UTF-8"  http-equiv="content-type">
+    <title>Huiswerk les 26</title>
+  </head>
+  <body>
+    <h1>Inschrijfformulier personeelsdag</h1>
+    <table  style="width: 500px;"  border="0">
+      <tbody>
+        <tr>
+          <td>Naam:</td>
+          <td><input  size="20"  value="naam"  name="Naam"  type="text"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Afdeling:</td>
+          <td><input  size="20"  value="afdeling"  name="Afdeling"  type="text"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>E-mail:</td>
+          <td><input  size="20"  required="required"  value="email"  name="Email"
+               type="email"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Keuze 1:</td>
+          <td>
+            <select  size="3"  name="Fietstocht">
+              <option  value="fietstocht1">Fietstocht</option>
+              <option  value="rondvaart1">Rondvaart</option>
+              <option  value="roeien1">Roeien</option>
+              <option  value="strandwandeltocht1">Strandwandeltocht</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Keuze 2:</td>
+          <td>
+            <select  size="3"  name="Keuze2">
+              <option  value="fietstocht2">Fietstocht</option>
+              <option  value="rondvaart2">Rondvaart</option>
+              <option  value="roeien2">Roeien</option>
+              <option  value="strandwandeltocht2">Strandwandeltocht</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td  colspan="2"  rowspan="1"><textarea  placeholder="Eventuele opmerkingen:"
+ rows="5"  cols="75"  name="vragen"></textarea><br>
+          </td>
+        </tr>
+        <tr>
+          <td><input  formmethod="post"  formaction="https://formspree.io/cwstam84@gmail.com"
+ value="verzenden"  name="Verzenden"  type="submit"> <input  value="wissen"  name="Wissen"
+ type="reset"> </td><td><br></td></tr></tbody></table><p><br></p>
+
+
+</body></html>
